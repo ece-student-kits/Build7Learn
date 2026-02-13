@@ -1,0 +1,60 @@
+aldrin:
+  name: Aldrin G
+  title: VLSI Enthusiast
+  url: https://github.com/aldrin7g
+  image_url: ./images/aldrin.jpg
+  page: false
+  socials:
+    linkedin: aldrin-g
+    github: aldrin7g
+    newsletter: https://aldrin7g.github.io/
+
+kevin:
+  name: Kevin Philip Abraham
+  title: ECE Enthusiast
+  image_url: ./images/kevin.jpg
+  page: false
+  socials:
+    linkedin: kevin-philip-abraham-262888227
+
+sherin:
+  name: Sherin J
+  title: ECE Student
+  image_url: ./images/sherin.jpg
+  page: false
+  socials:
+    linkedin: sherin-j-22768b2a1
+
+lemeka:
+  name: Lemeka Vanmathi
+  title: ECE Student
+  image_url: ./images/lemeka.jpg
+  page: false
+  socials:
+    linkedin: lemeka-vanmathi-969313255
+
+bellamary:
+  name: Dr. Thusnavis Bella Mary I
+  title: Assistant Professor
+  image_url: ./images/bellamary.png
+  page: false
+  socials:
+    linkedin: dr-thusnavis-bella-mary-3012841ba
+    newsletter: https://scholar.google.co.in/citations?user=wa-SPdYAAAAJ&hl=en
+
+johnpaul:
+  name: Dr. John Paul J
+  title: Assistant Professor
+  image_url: ./images/johnpaul.png
+  page: false
+  socials:
+    linkedin: john-paul-9828ab7
+    newsletter: https://scholar.google.co.in/citations?user=AufBG6cAAAAJ&hl=en
+
+wilson:
+  name: Mr. Wilson Christopher Raj
+  title: LAB Technician
+  image_url: ./images/wilson.jpg
+  page: false
+  socials:
+    linkedin: wilson-509-92002895
