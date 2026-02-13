@@ -16,13 +16,14 @@ const config = {
   url: 'https://aldrin7g.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/stm32docs/',
+  //baseUrl: '/stm32docs/',
+  baseUrl: '/',
   
   trailingSlash: false,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'aldrin7g', // Usually your GitHub org/user name.
-  projectName: 'stm32docs', // Usually your repo name.
+  organizationName: 'ece-student-kits', // Usually your GitHub org/user name.
+  projectName: 'Build7Learn', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
