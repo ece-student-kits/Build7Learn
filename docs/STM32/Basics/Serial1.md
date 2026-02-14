@@ -1,4 +1,4 @@
-# Basics: SerialMonitor
+# Basics: SerialMonitor(UART)
 `Task: Cofigure Serial Communication to print "Hello World!" with a delay of 1sec`
 ### Step 1: Create a STM32 Project "Serial"
 
@@ -49,7 +49,8 @@ HAL_Delay(1000);
         
     - Select `'Command Shell Console'` option
     - In the prompt which opens:
-            ![Image](..\Images\Serial\3.png)
+    
+        ![Image](..\Images\Serial\3.png)
             
         - Select Connection type as `'SerialPort'`
         - Click `'New'` button under Connection name
