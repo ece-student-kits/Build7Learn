@@ -22,7 +22,7 @@ const config = {
   trailingSlash: false,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ece-student-kits', // Usually your GitHub org/user name.
+  organizationName: 'ECE-KITS', // Usually your GitHub org/user name.
   projectName: 'Build7Learn', // Usually your repo name.
 
   onBrokenLinks: 'throw',
