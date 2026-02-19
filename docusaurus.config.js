@@ -13,11 +13,11 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://aldrin7g.github.io',
+  url: 'https://ECE-KITS.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  //baseUrl: '/stm32docs/',
-  baseUrl: '/',
+  //baseUrl: '/',
+  baseUrl: '/Build7Learn/',
   
   trailingSlash: false,
   // GitHub pages deployment config.
