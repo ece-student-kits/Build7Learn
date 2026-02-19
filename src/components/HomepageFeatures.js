@@ -4,11 +4,20 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'CUBE IDE',
-    Svg: require('../../static/img/CubeIDE.svg').default,
+    title: 'Arduino UNO',
+    Svg: require('../../static/img/2.svg').default,
     description: (
       <>
         STM32CubeIDE is an all-in-one integrated development environment (IDE) designed for STM32 microcontrollers and ST microprocessors
+      </>
+    ),
+  },
+  {
+    title: 'NodeMCU',
+    Svg: require('../../static/img/1.svg').default,
+    description: (
+      <>
+        A Nucleo Board is a development board designed by STMicroelectronics for STM32 microcontrollers. It provides a cost-effective, flexible, and easy-to-use platform for prototyping and development with STM32 MCUs
       </>
     ),
   },
@@ -18,15 +27,6 @@ const FeatureList = [
     description: (
       <>
         A Nucleo Board is a development board designed by STMicroelectronics for STM32 microcontrollers. It provides a cost-effective, flexible, and easy-to-use platform for prototyping and development with STM32 MCUs
-      </>
-    ),
-  },
-  {
-    title: 'CUBE MX',
-    Svg: require('../../static/img/CubeMX.svg').default,
-    description: (
-      <>
-        STM32CubeMX is a graphical configuration tool used for STM32 microcontrollers. It helps developers set up microcontroller peripherals and generate initialization code automatically
       </>
     ),
   },

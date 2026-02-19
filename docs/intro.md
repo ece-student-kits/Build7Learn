@@ -1,64 +1,87 @@
 ---
 sidebar_position: 1
 ---
-# Introduction
+# Introduction to Embedded Systems and IoT Add-On Course
+
+<div align="center">
+
+![Embedded Systems and IoT](Images/Nucleo_PinOut/intro.png)
+
+</div>
+
+Welcome to the **Add-On Course on Embedded Systems and Internet of Things (IoT)**. This course is designed to provide students with practical knowledge and hands-on experience in designing and developing intelligent electronic systems using modern embedded platforms.
 
 ---
 
-![Image](Images\Nucleo_PinOut\sd.jpg)
+## What are Embedded Systems?
 
-## Vision of Bootcamp:
+Embedded systems are specialized computing systems that perform dedicated functions within larger systems. They are widely used in:
 
-The **STM32 Bootcamp** is an immersive learning experience designed to provide participants with overview and hands-on experience in embedded systems development using STM32 microcontrollers. This bootcamp is ideal for students looking to expand their skills in microcontroller programming, peripheral interfacing, and real-time application development.
+- Home Automation Systems  
+- Smart Vehicles  
+- Healthcare Devices  
+- Industrial Automation  
+- Consumer Electronics  
 
----
-
-## What is Included in the STM32 Bootcamp?
-
-1. **Comprehensive Course Material**
-
-2. **Hands-on Projects**
-
-3. **Hands on experience with the Development Tools**
-
-4. **Hardware Kits**
-
-5. **Expert Guidance**
-
-6. **Assignments and Quizzes**
+With the advancement of IoT, embedded systems can now connect to the internet, enabling **remote monitoring, control, and data analysis**.
 
 ---
 
-## What to Expect During the STM32 Bootcamp?
+## Development Platforms Used in this Course
 
-1. **Foundational Learning**:
-   - Start with the basics of STM32 architecture, ARM Cortex-M cores, and microcontroller fundamentals.
-   - Learn about embedded C programming, setting up the development environment, and flashing code onto the MCU.
+In this course, you will work with industry-relevant platforms:
 
-2. **Peripheral Configuration and Interfacing**:
-   - Master the configuration of **GPIOs** for input/output control.
-   - Work with **timers**, **PWM** (Pulse Width Modulation) for motor control, **ADC/DAC** for analog signals, and **communication interfaces** such as **I2C**, **SPI**, and **UART**.
-
-3. **Project-Based Learning**:
-   - Apply theoretical knowledge to build working prototypes.
+- **Arduino** – Beginner-friendly microcontroller platform  
+- **NodeMCU (ESP8266)** – WiFi-enabled IoT development board  
+- **STM32 Nucleo Board** – Powerful ARM Cortex-M based microcontroller platform  
 
 ---
 
-## Who Should Attend?
+## What You Will Learn
 
-- **Beginners**: If you are new to embedded systems or microcontroller programming, this bootcamp will guide you from the basics to advanced concepts.
-- **Intermediate Learners**: Those with some experience in electronics and microcontrollers can deepen their knowledge and enhance their practical skills.
-- **Professionals**: Engineers looking to upskill in STM32 for applications in **IoT**, **automotive**, **robotics**, **industrial automation**, and more.
-- **Hobbyists & Makers**: Perfect for those passionate about DIY electronics projects who want to explore STM32 and create advanced projects.
+This course will help you understand:
 
----
-
-## Prerequisites
-
-- Basic problem-Solving Skills.
-- Basic knowledge in **programming** or **experience with Arduino**.
-- A laptop with **Cube IDE** and **Cube MX** installed.
+- Microcontrollers and Embedded Programming  
+- Interfacing Sensors and Actuators  
+- Digital and Analog Input/Output  
+- Serial Communication Protocols (UART, I2C, SPI)  
+- Wireless Communication and IoT Connectivity  
+- Real-time Data Monitoring  
 
 ---
 
-The STM32 Bootcamp is designed to give an overview about STM32 microcontrollers. By the end of the course, you will be comfortable with the entire development process, from project setup to final deployment.
+## Hands-On Learning
+
+This course focuses on practical implementation. You will build projects such as:
+
+- Sensor-based monitoring systems  
+- IoT-enabled devices  
+- Automation systems  
+
+---
+
+<!-- ## Course Outcomes
+
+By the end of this course, you will be able to:
+
+- Understand embedded system architecture  
+- Write and debug embedded programs  
+- Interface hardware with microcontrollers  
+- Build basic IoT systems  
+- Develop real-world embedded applications  
+
+--- -->
+
+## Career Scope
+
+This course builds a strong foundation for careers in:
+
+- Embedded Systems  
+- Internet of Things (IoT)  
+- Robotics  
+- Automation  
+- Product Development  
+
+---
+
+**Let’s begin your journey into Embedded Systems and IoT.**

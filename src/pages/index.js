@@ -11,8 +11,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">HANDS-ON WORKSHOP</h1>
-        <p className="hero__subtitle">STM32 FOR EMBEDDED SYSTEMS</p>
+        <h1 className="hero__title">Embedded/IoT AddOn Course</h1>
+        <p className="hero__subtitle">Arduino UNO--NodeMcu ESP8266--Nucleo Board STM32</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
