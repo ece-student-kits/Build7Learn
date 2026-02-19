@@ -8,21 +8,75 @@ title: LED and Push Button Control
 This project demonstrates how to control LEDs and a buzzer using push buttons.
 
 ---
+# LED Blinking 
 
-![led_push_button](../image/led.jpeg)
+## 1. Introduction
 
---- 
+The built-in LED is an LED already connected to the Arduino board.  
+In Arduino UNO, the built-in LED is connected to digital pin 13.
 
-![button](../image/push_button.jpeg)
+It is commonly used for testing programs and learning basic Arduino programming.  
+Blinking the built-in LED is the first and simplest program in embedded systems.
 
 ---
 
-## How It Works
+## 2. Working
 
-- Push buttons act as digital inputs.
-- LEDs and buzzer act as outputs.
-- When a button is pressed, the corresponding LED turns ON.
-- If any button is pressed, the buzzer activates.
+1. The LED is connected internally to digital pin 13.
+2. When the pin is set to HIGH, the LED turns ON.
+3. When the pin is set to LOW, the LED turns OFF.
+4. By adding delay between HIGH and LOW states, the LED blinks continuously.
+
+---
+
+## 3. Arduino Code
+
+```cpp
+void setup() {
+  pinMode(13, OUTPUT); // Set pin 13 as output
+}
+
+void loop() {
+  digitalWrite(13, HIGH); // Turn LED ON
+  delay(1000); // Wait for 1 second
+  
+  digitalWrite(13, LOW); // Turn LED OFF
+  delay(1000); // Wait for 1 second
+}
+```
+---
+
+![led_push_button](../image/led.jpeg)
+
+---
+
+# LED, Push Button and Buzzer
+
+---
+
+## 1. Introduction
+
+An LED (Light Emitting Diode) is used as a visual indicator.  
+A push button is an input device that sends a signal to the Arduino when pressed.  
+A buzzer is an output device that produces sound when activated.
+
+By combining an LED, push button, and buzzer, we can create a simple alert or indication system.  
+This setup is commonly used in alarm systems, calling bells, and basic embedded applications.
+
+---
+
+## 2. Working
+
+1. The push button is connected to a digital input pin of the Arduino.
+2. The LED and buzzer are connected to digital output pins.
+3. When the push button is pressed, it sends a signal (HIGH or LOW) to the Arduino.
+4. The Arduino reads the button state.
+5. If the button is pressed:
+   - The LED turns ON (visual indication).
+   - The buzzer produces sound (audio indication).
+6. When the button is released:
+   - The LED turns OFF.
+   - The buzzer stops.
 
 ---
 
@@ -65,3 +119,7 @@ void loop() {
   else
     digitalWrite(buzzer, LOW);
 }
+```
+---
+
+![IR sensor circuit diagram showing connections between IR sensor module, Arduino board, and LED output with labeled pin assignments](../image/Screenshot%202026-02-18%20214747.png)

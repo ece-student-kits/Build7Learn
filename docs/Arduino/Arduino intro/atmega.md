@@ -3,13 +3,13 @@ sidebar_position: 2
 title: ATmega328P Microcontroller
 ---
 
-<!-- ## Atmega328p 
+## Atmega328p 
 
-![ATmega328P_microcontroller](../image/atmega328p.jpeg) -->
+![ATmega328P_microcontroller](../image/atmega328p.jpeg)
 
 ---
 
-<!-- ## atmega328p pin layout -->
+## atmega328p pin layout
 
 ![Atmega328p pin](../image/atmega328p_pin.jpeg)
 
